@@ -251,7 +251,7 @@ GtkWindowAdapter >> infoArea [
 GtkWindowAdapter >> initialize [
 
 	initialized := false.
-	minimized := false.
+	minimized := true.
 	super initialize
 ]
 

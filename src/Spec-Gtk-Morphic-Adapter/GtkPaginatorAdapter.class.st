@@ -8,8 +8,8 @@ Class {
 GtkPaginatorAdapter >> addModelTo: gtkWidget [
 	| morph |
 
-	gtkWidget beMorphNotResizable.
-	gtkWidget vExpand: false.
+	gtkWidget beMorphResizable.
+	gtkWidget vExpand: true.
 	gtkWidget marginBottom: self defaultMarginBottom.
 	gtkWidget morph: (morph := SpPaginatorMorph new
 		height: self defaultPaginatorHeight;
